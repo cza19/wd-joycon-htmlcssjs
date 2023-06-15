@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoyCon</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;800&display=swap" />
 </head>
 
 <body>
@@ -17,7 +18,7 @@
             <div class="bg"></div>
 
             <div class="4btn">
-                <div class="kiri" >
+                <div class="kiri">
                     <div class="word">left</div>
                 </div>
                 <div class="kanan">
@@ -47,10 +48,47 @@
         </div>
     </div>
 
+    <button onclick="displayText()" class="kiri">left</button>
+    <div id="textField" style="display: none;" class="kotak">
+     KIRI
+    </div>
+
+    <button onclick="displayText()" class="kanan">right</button>
+    <div id="tes" style="display: none;" class="kotak">
+     RIGHT
+    </div>
+
+    <button onclick="displayText()" class="atas">up</button>
+    <div id="upup" style="display: none;" class="kotak">
+     RIGHT
+    </div>
+
+    <button onclick="displayText()" class="bawah">down</button>
+    <div id="dd" style="display: none;" class="kotak">
+     DOWN
+    </div>
+  
+
     <script>
-        function greet() {
-            console.log('Hey there clicker!');
-        }
+         function displayText() {
+        var text = document.getElementById("textField");
+        text.style.display = "block";
+      }
+
+      function displayText() {
+        var text = document.getElementById("tes");
+        text.style.display = "block";
+      }
+
+      function displayText() {
+        var text = document.getElementById("upup");
+        text.style.display = "block";
+      }
+
+      function displayText() {
+        var text = document.getElementById("dd");
+        text.style.display = "block";
+      }
 
     </script>
 
