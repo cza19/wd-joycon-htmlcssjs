@@ -84,15 +84,12 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 18px;
 
     color: #000000;
 }
 
-.body {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .b {
     position: absolute;
